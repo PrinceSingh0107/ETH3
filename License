@@ -1,0 +1,31 @@
+
+### 3. .gitignore
+Create a `.gitignore` file to exclude unnecessary files from your Git repository:
+
+```gitignore
+# Compiled source
+*.abi
+*.bin
+*.hex
+
+# Remix files
+remix-ide
+
+# Node modules
+node_modules
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+
+# Truffle build directory
+build
+
+# dotenv environment variables file
+.env
